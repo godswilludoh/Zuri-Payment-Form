@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url(./paymentform.jpg);
+    background-position: center;
+    background-size:cover;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    color:#fff;
+    }
+
+.wrapper h2{
+    width:800px;
+    background-color: rgb(0,0,0,0.6);
+    margin:auto;
+    font-size:35px;
+    letter-spacing: 2px;
+    color:#dd9103;
+    padding:10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+form{
+    background-color: rgb(0,0,0,0.5);
+    width:800px;
+    margin:auto;  
+}
+
+.input-group{
+    height:100%;
+}
+
+.input-box{
+    display: inline;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 20px;
+}
+
+h4{
+    font-size: 20px;
+    padding:14px;
+    color:#dd9103;
+}
+
+.name{
+    border-radius: 10px;
+    padding: 0 22px;
+    line-height: 35px;     
+    margin-top: 30px;   
+    font-size:18px;
+    font-weight: 400;
+   
+}
+
+.dob{
+    line-height: 35px; 
+    margin-left: 25px; 
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: 400;
+}
+
+.radio{
+    line-height: 35px; 
+    margin-left: 25px; 
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: 400;
+}
+
+.input-group .input-box button{
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+    width:100px;
+    padding:20px;
+    color:#dd9103;
+}
+
+.input-group .input-box button:hover{
+   background: #dd9103;
+   color:#fff;
+}
+
+i{
+    color:#fcc560;
+}
